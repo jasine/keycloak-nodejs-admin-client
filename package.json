@@ -1,6 +1,6 @@
 {
   "name": "@keycloak/keycloak-admin-client",
-  "version": "1.14.7",
+  "version": "12.0.4",
   "description": "keycloak admin client",
   "main": "lib/index.js",
   "files": [
@@ -21,7 +21,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "camelize": "^1.0.0",
-    "keycloak-js": "^11.0.3",
+    "keycloak-js": "^12.0.4",
     "lodash": "^4.17.20",
     "query-string": "^6.13.7",
     "url-join": "^4.0.0",
@@ -47,5 +47,8 @@
     "typescript": "^4.0.5"
   },
   "author": "wwwy3y3",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "http://package.nemoface.com/repository/npm-private"
+  }
 }
